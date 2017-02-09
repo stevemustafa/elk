@@ -8,7 +8,9 @@
 # docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk <repo-user>/elk
 
 FROM phusion/baseimage
-MAINTAINER Sebastien Pujadas http://pujadas.net
+#This is altered as the original mainter of the base images is indeed Sebastien, this particular one is Steven Mustafa
+#MAINTAINER Sebastien Pujadas http://pujadas.net
+MAINTAINER Steven Mustafa
 ENV REFRESHED_AT 2017-01-13
 
 
